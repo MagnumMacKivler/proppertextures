@@ -3,7 +3,7 @@ A shared material/textures pack for GMOD train addons.
 
 ## Rules for contribution
 
-* Your material need GMOD and Hammer versions.
+* Your material needs GMOD and Hammer versions.
   
   GMOD compatible versions should include the full material files (such as normals, speculars, etc).
   
