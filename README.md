@@ -7,7 +7,7 @@ A shared texture pack for GMOD train addons.
   
   GMOD compatible versions should include the full texture files (such as normals, speculars, etc).
   
-  *Hammer* compatible versions should not include these files, or `vertexlitgeneric` shader parameters. They should 
+  *Hammer* compatible versions should not include these files, or `vertexlitgeneric` shader parameters. They need to be 
   `lightmappedgeneric` instead and never point to `models`. For example:
   
   ```
