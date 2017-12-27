@@ -1,9 +1,9 @@
 # GMOD Train Shared Textures Pack (GTSTP)
 A shared texture pack for GMOD train addons.
 
-## Rules for contribution.
+## Rules for contribution
 
-* Follow the naming and folder location conventions
+* Follow the naming and folder location conventions.
 
   This means you need to look at our files, see how we do things, and follow that. For example:
   
