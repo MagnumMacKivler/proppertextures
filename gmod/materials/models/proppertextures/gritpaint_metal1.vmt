@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\proppertextures/gritpaint/gritpaint_white"
+	"$nodecal" 1
+	"$color2" "{138 139 147}"
+}

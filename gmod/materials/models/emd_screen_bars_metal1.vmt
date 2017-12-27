@@ -1,7 +1,0 @@
-"VertexLitGeneric"
-{
-
-	"$baseTexture"	"models\proppertextures/filters/emd_screen_bars"
-	"$alphatest"	"1"
-	"$color2" "{138 139 147}"
-}
