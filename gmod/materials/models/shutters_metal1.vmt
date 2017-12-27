@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			"models\proppertextures/misc/shutters_white"
+	"$bumpmap" 			"models\proppertextures/misc/shutters_white_n"
+
+	"$phong"			"1"
+	"$phongalbedotint"		"0"
+	"$phongtint"                  	"[1 1 1]"
+	"$phongboost"                  	"0.15"
+	"$phongexponent"             	 "7"
+	"$phongfresnelranges"           "[1 5 8]"
+
+	"$rimlight"               "1"
+	"$rimlightexponent"       "10"
+	"$rimlightboost"          "0.05"
+	"$color2" "{138 139 147}"
+
+}

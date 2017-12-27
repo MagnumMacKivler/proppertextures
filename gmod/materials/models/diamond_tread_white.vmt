@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 		"models\proppertextures\treadplate\diamond_tread_white"
+	"$bumpmap" 		"models\proppertextures\treadplate\diamond_tread_normal"
+	"$nodecal" 1
+
+	"$phong"			"1"
+	"$phongalbedotint"		"1"
+	"$phongtint"                  	"[1 1 1]"
+	"$phongboost"                  	"0.1"
+	"$phongexponent"             	 "10"
+	"$phongfresnelranges"           "[1 5 8]"
+}

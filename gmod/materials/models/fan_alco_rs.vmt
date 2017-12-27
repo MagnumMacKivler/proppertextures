@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\proppertextures/misc/fan_alco_rs"
+	"$surfaceprop" "metalgrate"
+	"$nodecal" 1
+	"$blendtintbybasealpha" "1"
+	"$halflambert"	"1"
+	"$alphatest"	"1"
+	"$alphatestreference"	"0.5"
+	"$allowAlphaToCoverage"	"1"
+
+	"$override" "{255 255 255}"
+	 proxies
+	{
+		equals
+		{
+			srcvar1 $override
+			resultvar $color
+		}
+	
+	}
+}
+
