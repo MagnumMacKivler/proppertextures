@@ -3,6 +3,58 @@ A shared texture pack for GMOD train addons.
 
 ## Rules for contribution
 
+* Your textures need GMOD and Hammer versions.
+  
+  GMOD compatible versions should include the full texture files (such as normals, speculars, etc).
+  
+  *Hammer* compatible versions should not include these files, or `vertexlitgeneric` shader parameters. They should 
+  `lightmappedgeneric` instead and never point to `models`. For example:
+  
+  ```
+  "LightmappedGeneric"
+  {
+  
+	  "$basetexture"			"proppertextures\paint\acrylic\acrylic_d"
+    
+  }
+  ```
+  
+  This is a perfect Hammer compatible texture. Compare this to the original:
+  
+  ```
+  "VertexLitGeneric"
+  {
+	"$basetexture"			"models\proppertextures\paint\acrylic\acrylic_d"
+	"$bumpmap" 			"models\proppertextures\paint\acrylic\acrylic_n"
+
+
+	"$normalmapalphaenvmapmask"	"1"
+	"$basemapalphaphongmask" 		"1"
+
+	"$phong"			"1"
+	"$phongalbedotint"		"0"
+	"$phongtint"                  	"[1 1 1]"
+	"$phongboost"                  	"0.15"
+	"$phongexponent"             	 "7"
+	"$phongfresnelranges"           "[1 5 8]"
+
+	"$rimlight"               "1"
+	"$rimlightexponent"       "10"
+	"$rimlightboost"          "0.05"
+
+
+	"$envmap"                       	"env_cubemap"
+	"$envmaptint"                   	"[0.015 0.015 0.015]"
+	"$envmapfresnel" 		"0.5"
+
+	"$detail" 			"detail\plaster_detail_01"
+	"$detailscale" 		"30.283"
+	"$detailblendfactor" 	"0.15"
+	"$detailblendmode" 	"0"
+
+  }
+  ```
+
 * Follow the naming and folder location conventions.
 
   This means you need to look at our files, see how we do things, and follow that. For example:
