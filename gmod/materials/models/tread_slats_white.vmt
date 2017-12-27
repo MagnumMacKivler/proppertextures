@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\proppertextures/treadplate/tread_slats_white"
+	"$nodecal" 1
+	"$translucent" 1
+}
