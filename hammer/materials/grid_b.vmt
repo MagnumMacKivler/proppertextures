@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$basetexture"			"proppertextures\misc\grids\grid_b"
+
+	"$override" "{255 255 255}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+	
+	}
+}

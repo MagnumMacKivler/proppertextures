@@ -1,0 +1,26 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"proppertextures\wood\pegboard"
+	// "$bumpmap"      "proppertextures\metal\aluminum_nrm"
+
+	"$basetexturetransform" "center 0 0 scale 8 8 rotate 0 translate 0 0"
+
+	"$halflambert" "1"
+	// "$blendtintbybasealpha" "1"
+
+	// "$phong" 	"1"
+	// "$phongexponent"  "10"
+	// "$phongboost" 	"1"
+	// "$phongfresnelranges"	"[.25 1 4]"
+	
+	"$override" "{210 175 135}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+	
+	}
+}

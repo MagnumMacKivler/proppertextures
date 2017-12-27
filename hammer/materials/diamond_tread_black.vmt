@@ -1,0 +1,24 @@
+"LightmappedGeneric"
+{
+	"$basetexture" 		"proppertextures\treadplate\diamond_tread_black"
+	"$bumpmap" 		"proppertextures\treadplate\diamond_tread_normal"
+	"$nodecal" 1
+
+	"$phong"			"1"
+	"$phongalbedotint"		"1"
+	"$phongtint"                  	"[1 1 1]"
+	"$phongboost"                  	"0.1"
+	"$phongexponent"             	 "10"
+	"$phongfresnelranges"           "[1 5 8]"
+
+	"$override" "{255 255 255}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+	
+	}
+}

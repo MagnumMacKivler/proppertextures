@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" 	"proppertextures/filters/filter_cloth"
+
+	"$halflambert" "1"
+
+	"$phong" 	"1"
+	"$phongexponent"  "10"
+	"$phongboost" 	"1"
+	"$phongfresnelranges"	"[.25 1 4]"
+}
