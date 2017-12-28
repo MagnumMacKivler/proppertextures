@@ -1,19 +1,6 @@
 "LightmappedGeneric"
 {
 	"$basetexture" "proppertextures/misc/fan_dph_q"
-	"$surfaceprop" "metalgrate"
 	"$alphatest" "1"
-	"$nodecal" "1"
-
-	"$override" "{255 255 255}"
-	Proxies
-	{
-		Equals
-		{
-			srcVar1 $override
-			resultVar $color
-		}
-	
-	}
 }
 

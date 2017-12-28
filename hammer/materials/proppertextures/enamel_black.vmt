@@ -3,14 +3,4 @@
 	"$basetexture"			"proppertextures\paint\enamel\enamel_d_black"
 	"$bumpmap" 			"proppertextures\paint\enamel\enamel_n"
 
-	"$override" "{255 255 255}"
-	Proxies
-	{
-		Equals
-		{
-			srcVar1 $override
-			resultVar $color
-		}
-	
-	}
 }

@@ -1,16 +1,5 @@
-"LightmappedGeneric"
-{
-	"$alphatest" 1
-	"$basetexture" "metal/metaltruss004a"
-	"$override" "{255 255 255}"
-	proxies
-	{
-		equals
-		{
-			srcvar1 $override
-			resultvar $color
-		}
-	
-	}
-
-}
+"LightmappedGeneric" { 
+
+	"$alphatest" 1 
+	"$basetexture" "metal/metaltruss004a"
+} 
