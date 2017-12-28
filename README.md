@@ -14,7 +14,8 @@ A shared material/textures pack for GMOD train addons.
   "LightmappedGeneric"
   {
   
-	  "$basetexture"			"proppertextures\paint\acrylic\acrylic_d"
+	  "$basetexture"		"proppertextures\paint\acrylic\acrylic_d"
+	  "$bumpmap" 			"models\proppertextures\paint\acrylic\acrylic_n"
     
   }
   ```
