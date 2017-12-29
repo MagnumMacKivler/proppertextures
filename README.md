@@ -1,6 +1,10 @@
 # GMOD Train Shared Textures Pack (GTSTP)
 A shared material/textures pack for GMOD train addons.
 
+## Wiki
+
+Check the Wiki for material color vectors, material color codes, and more.
+
 ## Rules for contribution
 
 * Your material needs GMOD and Hammer versions.
