@@ -28,7 +28,8 @@ Check the Wiki for material color vectors, material color codes, and more.
   
   ```
   "VertexLitGeneric"
-  {
+
+{
 	"$basetexture"			"models\proppertextures\paint\acrylic\acrylic_d"
 	"$bumpmap" 			"models\proppertextures\paint\acrylic\acrylic_n"
 
@@ -86,3 +87,18 @@ Check the Wiki for material color vectors, material color codes, and more.
 * Include screenshots with your pull request.
 
   We need to review your pull request. Don't make it hard on us to do so, not all of us are going to download these changes to check them.
+
+## Updating Local Files through SVN
+
+Tortoise SVN can be used to easily update your local files.
+For Hammer Textures:
+* Make a new folder called `proppertextures` inside `Propperconfiguration\materials`.
+* Right Click it and click SVN Checkout.
+* Use this link for the repository: `https://github.com/MagnumMacKivler/proppertextures/trunk/hammer/materials/proppertextures`
+
+For GMOD Textures:
+* Make a new folder called `proppertextures` inside `garrysmod\materials\models`.
+* Right Click it and click SVN Checkout.
+* Use this link for the repository: `https://github.com/MagnumMacKivler/proppertextures/trunk/gmod/materials/models/proppertextures`
+
+After this is done, either directory can be updated by Right-Clicking the `proppertextures` folder and clicking SVN Update.
