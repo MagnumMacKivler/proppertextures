@@ -91,6 +91,7 @@ Check the Wiki for material color vectors, material color codes, and more.
 ## Updating Local Files through SVN
 
 Tortoise SVN can be used to easily update your local files. 
+
 For Hammer Textures:
 * Make a new folder called `proppertextures` inside `Propperconfiguration\materials`.
 * Right Click it and click SVN Checkout.
