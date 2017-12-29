@@ -3,14 +3,4 @@
 	"$basetexture"			"proppertextures\paint\acrylic\acrylic_d"
 	"$bumpmap" 			"proppertextures\paint\acrylic\acrylic_n"
 
-	"$override" "{0 150 0}"
-	Proxies
-	{
-		Equals
-		{
-			srcVar1 $override
-			resultVar $color
-		}
-	
-	}
 }

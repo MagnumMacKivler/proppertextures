@@ -1,24 +1,6 @@
 "LightmappedGeneric"
 {
 	"$basetexture" 	"proppertextures\paint\cabpaint\cabmetal_d"
-	// "$bumpmap"      "proppertextures\metal\aluminum_nrm"
+	 "$bumpmap"      "proppertextures\metal\aluminum_nrm"
 
-	"$halflambert" "1"
-	// "$blendtintbybasealpha" "1"
-
-	// "$phong" 	"1"
-	// "$phongexponent"  "10"
-	// "$phongboost" 	"1"
-	// "$phongfresnelranges"	"[.25 1 4]"
-	
-	"$override" "{170 175 175}"
-	Proxies
-	{
-		Equals
-		{
-			srcVar1 $override
-			resultVar $color
-		}
-	
-	}
 }
