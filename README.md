@@ -28,8 +28,8 @@ Check the Wiki for material color vectors, material color codes, and more.
   
   ```
   "VertexLitGeneric"
-
-{
+  
+  {
 	"$basetexture"			"models\proppertextures\paint\acrylic\acrylic_d"
 	"$bumpmap" 			"models\proppertextures\paint\acrylic\acrylic_n"
 
