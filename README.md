@@ -9,7 +9,9 @@ Check the Wiki for material color vectors, material color codes, and more.
 
 Read [this](https://github.com/MagnumMacKivler/proppertextures/wiki/Rules-for-Contribution) page on the Wiki for contribution rules.
 
-## Updating Local Files through SVN
+## Installation
+
+### Updating Local Files through SVN
 
 Tortoise SVN can be used to easily update your local files. 
 
