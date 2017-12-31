@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "proppertextures/misc/autorackplate2_colorable"
+	"$bumpmap" "proppertextures/misc/autorackplate_nrm"
+	"$alphatest" "1"
+	"$alphatestreference" "0.5"
+}
