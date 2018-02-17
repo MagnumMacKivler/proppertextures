@@ -8,7 +8,9 @@
 	"$blendtintbybasealpha" "1"
 
 	"$phong" 	"1"
-	"$phongexponent"  "10"
+	"$phongexponent"  "4"
 	"$phongboost" 	"5"
 	"$phongfresnelranges"	"[.25 1 4]"
+	"$envmap" 	"env_cubemap"
+	"$envmaptint" 	"[1 1 1]"
 }
