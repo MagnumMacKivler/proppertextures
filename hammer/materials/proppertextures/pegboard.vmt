@@ -1,0 +1,17 @@
+"LightmappedGeneric"
+{
+	"$basetexture"			"proppertextures\wood\pegboard"
+
+	"$basetexturetransform" "center 0 0 scale 8 8 rotate 0 translate 0 0"
+
+	"$override" "{255 255 255}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+	
+	}
+}

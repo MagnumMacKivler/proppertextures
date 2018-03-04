@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 	"models/proppertextures/filters/intake_mlw"
+
+	"$halflambert" "1"
+
+	"$phong" 	"1"
+	"$phongexponent"  "10"
+	"$phongboost" 	"1"
+	"$phongfresnelranges"	"[.25 1 4]"
+}
