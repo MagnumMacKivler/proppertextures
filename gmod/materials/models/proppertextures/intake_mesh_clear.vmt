@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+
+	"$baseTexture" "models/proppertextures/filters/intake_mesh_clear"
+	"$halflambert" "1"
+	"$alphatest" "1"
+}

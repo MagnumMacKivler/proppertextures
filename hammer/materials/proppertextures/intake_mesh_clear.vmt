@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+
+	"$baseTexture" "proppertextures/filters/intake_mesh_clear"
+	"$alphatest" "1"
+}

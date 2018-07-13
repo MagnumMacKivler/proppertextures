@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+
+	"$baseTexture" "proppertextures/filters/mesh_square"
+	"$translucent"      "1"
+}

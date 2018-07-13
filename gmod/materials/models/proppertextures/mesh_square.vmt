@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+
+	"$baseTexture" "models/proppertextures/filters/mesh_square"
+	"$halflambert" "1"
+	"$alphatest" "1"
+	$alphatestreference		0.5
+	$allowAlphaToCoverage	1
+}

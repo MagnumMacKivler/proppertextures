@@ -1,0 +1,18 @@
+"LightmappedGeneric"
+{
+
+	"$baseTexture" "proppertextures/misc/plastic_blue"
+	
+	"$HalfLambert" "1"
+
+	"$override" "{255 255 255}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+	
+	}
+}
