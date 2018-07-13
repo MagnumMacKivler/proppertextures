@@ -28,7 +28,7 @@
 	"$detailblendfactor" 	"0.15"
 	"$detailblendmode" 	"0"
 
-	"$override" "{145 145 145}"
+	"$override" "{95 95 95}"
 	Proxies
 	{
 		Equals
