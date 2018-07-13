@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			"models\proppertextures\paint\enamel\enamel_d_black"
+
+
+	"$override" "{255 255 255}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+	
+	}
+}

@@ -1,4 +1,4 @@
-"LightmappedGeneric"
+"UnlitGeneric"
 {
 	"$basetexture" "proppertextures/misc/controlstands/indications_black"
 	"$alphatest" 1

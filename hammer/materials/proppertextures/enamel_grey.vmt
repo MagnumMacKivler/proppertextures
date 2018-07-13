@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$basetexture"			"proppertextures\paint\enamel\enamel_d_grey"
+
+	"$override" "{255 255 255}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+	
+	}
+}

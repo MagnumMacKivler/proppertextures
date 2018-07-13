@@ -1,0 +1,6 @@
+"unlitgeneric"
+{
+	$model 1 	"$basetexture" "models/proppertextures/misc/invisible"
+	"$alphatest" 1
+	"$nodecal" 1
+}
