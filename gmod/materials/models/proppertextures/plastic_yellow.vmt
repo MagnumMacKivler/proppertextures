@@ -1,8 +1,10 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models\proppertextures/gritpaint/gritpaint_black"
-	"$nodecal" 1
+
+	"$baseTexture" "models/proppertextures/misc/plastic_yellow"
 	
+	"$HalfLambert" "1"
+
 	"$override" "{255 255 255}"
 	Proxies
 	{
@@ -14,4 +16,3 @@
 	
 	}
 }
-

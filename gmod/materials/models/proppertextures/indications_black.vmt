@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "proppertextures/misc/controlstands/indications_black"
+	"$basetexture" "models/proppertextures/misc/controlstands/indications_black"
 	"$alphatest" 1
 	"$alphatestreference" "0.5"
 	"$allowalphatocoverage" "1"

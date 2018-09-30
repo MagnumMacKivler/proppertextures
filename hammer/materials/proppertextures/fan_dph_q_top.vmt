@@ -1,6 +1,8 @@
 "LightmappedGeneric"
 {
 	"$basetexture" "proppertextures/misc/fan_dph_q_top"
+	"$surfaceprop" "metalgrate"
 	"$alphatest" "1"
+	"$nodecal" "1"
+	"$blendtintbybasealpha" "1"
 }
-
