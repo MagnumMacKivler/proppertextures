@@ -1,4 +1,18 @@
 "UnlitGeneric"
 {
 	"$basetexture" "proppertextures/misc/controlstands/indications_white"
+	"$alphatest" 1
+	"$alphatestreference" "0.5"
+	"$allowalphatocoverage" "1"
+	
+	"$override" "{255 255 255}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+	
+	}
 }

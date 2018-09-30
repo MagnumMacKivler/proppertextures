@@ -1,0 +1,17 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "proppertextures/misc/controlstands/ind_trainbrake"
+	"$alphatestreference" "0.5"
+	"$allowalphatocoverage" "1"
+	
+	"$override" "{255 255 255}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+	
+	}
+}

@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
 	"$model" "1"
-	"$basetexture" "proppertextures/misc/controlstands/indications_white"
+	"$basetexture" "models/proppertextures/misc/controlstands/indications_white"
 	
 	"$override" "{255 255 255}"
 	Proxies
