@@ -1,6 +1,6 @@
 VertexLitGeneric
 {
-	$basetexture	"proppertextures\misc\logos\caster_gsc"
+	$basetexture	"models\proppertextures\misc\logos\caster_gsc"
 
 	$alphatest 1
 	$alphatestreference 0.01

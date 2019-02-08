@@ -1,0 +1,22 @@
+VertexLitGeneric
+{
+	$basetexture	"models\proppertextures\misc\logos\caster_adc"
+
+	$alphatest 1
+	$alphatestreference 0.3
+	$allowAlphaToCoverage 1
+
+	"$override" "{255 255 255}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+	
+	}
+
+
+}
+
