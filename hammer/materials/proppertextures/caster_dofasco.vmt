@@ -1,6 +1,6 @@
 VertexLitGeneric
 {
-	$basetexture	"models\proppertextures\misc\logos\caster_dofasco"
+	$basetexture	"proppertextures\misc\logos\caster_dofasco"
 	$alphatest 	1
 	$alphatestreference	0.5
 	$allowAlphaToCoverage	1
