@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/proppertextures/misc/hardhat_logo"
+	"$surfaceprop" "MetalVent"
+	"$alphatest" "1"
+	"$allowAlphaToCoverage" "1"
+	"$detail" "detail\metal_detail_01"
+	"$detailscale" "0.5"
+	"$detailblendfactor" ".25"
+	"$detailblendmode" "0"
+
+}

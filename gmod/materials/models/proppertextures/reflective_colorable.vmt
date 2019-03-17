@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/proppertextures/misc/reflective/reflective_white"
+	"$envmap" "env_cubemap"
+	"$nocull" "1"
+	//"$envmaptint" "[0.75 0.75 0.75]"
+	"$halflambert" "1"
+	
+	"$denominator" "2"
+	Proxies
+	{
+		Divide
+		{
+			srcVar1 $color
+			srcVar2 $denominator
+			resultVar $envmaptint
+		}
+		//Equals
+		//{
+		//	srcVar1 $color
+		//	resultVar $envmaptint
+		//}
+	
+	}
+}

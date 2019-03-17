@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/proppertextures/misc/reflective/reflective_yellow"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.5 0.375 0]"
+	"$nocull" "1"
+	"$halflambert" "1"
+	
+	"$override" "[1 1 1]"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+	
+	}
+}

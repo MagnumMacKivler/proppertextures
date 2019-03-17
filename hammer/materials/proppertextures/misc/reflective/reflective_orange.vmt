@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "proppertextures/misc/reflective/reflective_orange"
+	"$nocull" "1"
+}
