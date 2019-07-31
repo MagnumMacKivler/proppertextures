@@ -1,0 +1,33 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			"models\proppertextures\paint\acrylic\hazard\acrylic_hazard_chevron"
+	"$bumpmap" 			"models\proppertextures\paint\acrylic\acrylic_n"
+
+
+	"$normalmapalphaenvmapmask"	"1"
+	"$blendtintbybasealpha" 		"1"
+
+	"$basetexturetransform" "center .5 .5 scale 1 1 rotate 0  translate 0 0"
+
+	"$phong"			"1"
+	"$phongalbedotint"		"0"
+	"$phongtint"                  	"[1 1 1]"
+	"$phongboost"                  	"0.15"
+	"$phongexponent"             	 "7"
+	"$phongfresnelranges"           "[1 5 8]"
+
+	"$rimlight"               "1"
+	"$rimlightexponent"       "10"
+	"$rimlightboost"          "0.05"
+
+
+	"$envmap"                       	"env_cubemap"
+	"$envmaptint"                   	"[0.015 0.015 0.015]"
+	"$envmapfresnel" 		"0.5"
+
+	"$detail" 			"detail\plaster_detail_01"
+	"$detailscale" 		"30.283"
+	"$detailblendfactor" 	"0.15"
+	"$detailblendmode" 	"0"
+
+}
