@@ -1,7 +1,7 @@
 "VertexLitGeneric"
 {
-	"$basetexture"			"models\fcnsharedtextures\flooring\rubberfloor_modern_white"
-	"$bumpmap" 			"models\fcnsharedtextures\flooring\rubberfloor_modern_n"
+	"$basetexture"			"models\proppertextures\flooring\rubberfloor_modern_white"
+	"$bumpmap" 			"models\proppertextures\flooring\rubberfloor_modern_n"
 
 	"$basetexturetransform" "center 0 0 scale 3 3  rotate 0 translate 0 0"
 
