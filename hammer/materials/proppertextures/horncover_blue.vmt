@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture"			"proppertextures\filters\horncover_d"
+	"$bumpmap" 			"proppertextures\filters\horncover_n"
+
+}
