@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+
+	"$basetexture" 	"proppertextures/filters/mesh_chickenwire_d"
+	"$bumpmap"      "proppertextures/filters/mesh_chickenwire_n"
+
+	"$alphatest" "1"
+
+
+}
