@@ -2,15 +2,13 @@
 {
 
 	"$basetexture" 	"models/proppertextures/metal/aluminum"
-	"$bumpmap"      "proppertextures/metal/aluminum_nrm"
+	"$bumpmap"      "models/proppertextures/metal/aluminum_nrm"
 
 	"$halflambert" "1"
 	"$blendtintbybasealpha" "1"
 
 	"$phong" 	"1"
-	"$phongexponent"  "4"
+	"$phongexponent"  "10"
 	"$phongboost" 	"5"
 	"$phongfresnelranges"	"[.25 1 4]"
-	"$envmap" 	"env_cubemap"
-	"$envmaptint" 	"[1 1 1]"
 }
