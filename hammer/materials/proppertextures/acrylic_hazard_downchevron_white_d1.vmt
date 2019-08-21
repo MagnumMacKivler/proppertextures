@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture"			"proppertextures\paint\acrylic\hazard\acrylic_hazard_chevron"
+	"$bumpmap" 			"proppertextures\paint\acrylic\acrylic_n"
+
+	"$basetexturetransform" "center .5 .5 scale 1 1 rotate 180 translate 0 0"
+
+
+}
