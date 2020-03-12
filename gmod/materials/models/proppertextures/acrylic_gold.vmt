@@ -1,41 +1,47 @@
-"VertexLitGeneric"
+
+vertexlitgeneric
 {
-	"$basetexture"			"models\proppertextures\paint\acrylic\acrylic_d"
-	"$bumpmap" 			"models\proppertextures\paint\acrylic\acrylic_n"
 
+	%tooltexture models/proppertextures/paint/acrylic/acrylic_d
 
-	"$normalmapalphaenvmapmask"	"1"
-	"$basemapalphaphongmask" 		"1"
+	$basetexture models/proppertextures/paint/acrylic/acrylic_d
+	$bumpmap models/proppertextures/paint/acrylic/acrylic_n
 
-	"$phong"			"1"
-	"$phongalbedotint"		"0"
-	"$phongtint"                  	"[1 1 1]"
-	"$phongboost"                  	"0.15"
-	"$phongexponent"             	 "7"
-	"$phongfresnelranges"           "[1 5 8]"
+	$normalmapalphaenvmapmask 1
+	$basemapalphaphongmask 1
 
-	"$rimlight"               "1"
-	"$rimlightexponent"       "10"
-	"$rimlightboost"          "0.05"
+	$phong 1
+	$phongalbedotint 0
+	$phongtint "[ 1 1 1 ]"
+	$phongboost 0.15
+	$phongexponent 7
+	$phongfresnelranges "[ 1 5 8 ]"
 
+	$rimlight 1
+	$rimlightexponent 10
+	$rimlightboost 0.05
 
-	"$envmap"                       	"env_cubemap"
-	"$envmaptint"                   	"[0.015 0.015 0.015]"
-	"$envmapfresnel" 		"0.5"
+	$envmap env_cubemap
+	$envmaptint "[ 0.015 0.015 0.015 ]"
+	$envmapfresnel 0.5
 
-	"$detail" 			"detail\plaster_detail_01"
-	"$detailscale" 		"30.283"
-	"$detailblendfactor" 	".15"
-	"$detailblendmode" 	"0"
+	$detail detail/plaster_detail_01
+	$detailscale 30.283
+	$detailblendfactor 0.15
+	$detailblendmode 0
 
-	"$override" "{255 191 0}"
-	Proxies
+	$color2 "{ 255 191 0 }"
+	proxies
 	{
-		Equals
+
+		equals
 		{
-			srcVar1 $override
-			resultVar $color
+
+			srcvar1 $color2
+			resultvar $color
+
 		}
 	
 	}
+
 }
