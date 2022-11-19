@@ -1,0 +1,20 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/proppertextures/misc/glass_red"
+	"$surfaceprop" "glass"
+	"$envmap"                       	"env_cubemap"
+	"$envmaptint"                   	"[0.5 0.5 0.5]"
+	"$envmapfresnel" 		"0.5"
+	"$translucent" "1"
+	"$override" "{255 0 0}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+	
+	}
+
+}

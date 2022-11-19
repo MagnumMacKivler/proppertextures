@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\proppertextures/treadplate/tread_slats_white"
+	"$nodecal" 1
+	$alphatest	1
+	$alphatestreference		0.5
+	$allowAlphaToCoverage	1
+
+	"$override" "{95 95 95}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+	
+	}
+
+}
+

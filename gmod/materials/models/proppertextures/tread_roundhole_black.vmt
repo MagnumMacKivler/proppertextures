@@ -2,7 +2,9 @@
 {
 	"$basetexture" "models\proppertextures/treadplate/tread_roundhole_black"
 	"$nodecal" 1
-	"$translucent" 1
+	$alphatest	1
+	$alphatestreference		0.5
+	$allowAlphaToCoverage	1
 	
 	"$override" "{255 255 255}"
 	Proxies

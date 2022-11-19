@@ -2,5 +2,7 @@
 {
 
 	"$baseTexture"	"models\proppertextures/filters/emd_screen_diamond"
-	"$alphatest"	"1"
+	$alphatest	1
+	$alphatestreference		0.5
+	$allowAlphaToCoverage	1
 }

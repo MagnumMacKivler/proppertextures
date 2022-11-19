@@ -1,7 +1,7 @@
 "VertexLitGeneric"
 {
-	"$basetexture"			"models\proppertextures\misc\coal\coal_d"
-	"$bumpmap" 			"models\proppertextures\misc\coal\coal_n"
+	"$basetexture"			"models\proppertextures\loads\coal_d"
+	"$bumpmap" 			"models\proppertextures\loads\coal_n"
 
 	"$basetexturetransform" "center .5 .5 scale 3 3 rotate 0 translate 0 0"
 

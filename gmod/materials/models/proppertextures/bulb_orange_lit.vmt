@@ -1,0 +1,16 @@
+"UnlitGeneric"
+{
+
+	"$baseTexture" "models/proppertextures/misc/bulbs/bulb_orange_lit"
+
+	"$override" "{255 255 255}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+	
+	}
+}

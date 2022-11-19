@@ -1,0 +1,29 @@
+"VertexLitGeneric"
+{
+
+	"$basetexture" 	"models\proppertextures/metal/aluminum"
+	"$bumpmap"     	 "models\proppertextures/metal/cast_n"
+
+	"$basetexturetransform" "center .5 .5 scale 8 8 rotate 0 translate 0 0"
+
+	"$phong" 	"1"
+	"$phongexponent"  "8"
+	"$phongboost" 	"0.5"
+	"$phongfresnelranges"	"[.25 1 4]"
+
+	"$detail" 			"detail\proppertexture_castnoise"
+	"$detailscale" 		"20"
+	"$detailblendfactor" 	"0.25"
+	"$detailblendmode" 	"0"
+
+	"$override" "{240 240 255}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+	
+	}
+}

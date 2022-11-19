@@ -2,8 +2,19 @@
 {
 
 	"$baseTexture" "models/proppertextures/filters/mesh_square"
-	"$halflambert" "1"
+	"$bumpmap"      "models/proppertextures/filters/mesh_square_normal"
 	"$alphatest" "1"
 	$alphatestreference		0.5
 	$allowAlphaToCoverage	1
+
+	"$phong"			"1"
+	"$phongalbedotint"		"0"
+	"$phongtint"                  	"[1 1 1]"
+	"$phongboost"                  	"0.1"
+	"$phongexponent"             	 "2.5"
+	"$phongfresnelranges"           "[1 5 10]"
+
+	"$rimlight"               "1"
+	"$rimlightexponent"       "10"
+	"$rimlightboost"          "0.05"
 }

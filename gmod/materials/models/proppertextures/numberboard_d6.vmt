@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/proppertextures/misc/numberboard_default_single"
+	"$alphatest"	"1"
+	"$alphatestreference"	"0.5"
+
+}
+

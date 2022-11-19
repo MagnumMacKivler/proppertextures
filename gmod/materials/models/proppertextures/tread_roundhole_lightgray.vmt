@@ -1,0 +1,27 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\proppertextures/treadplate/tread_roundhole_silver"
+	"$nodecal" 1
+	$alphatest	1
+	$alphatestreference		0.5
+	$allowAlphaToCoverage	1
+
+	"$halflambert" "1"
+	"$blendtintbybasealpha" "1"
+
+	"$phong" 	"1"
+	"$phongexponent"  "10"
+	"$phongboost" 	"5"
+	"$phongfresnelranges"	"[.25 1 4]"
+	
+	"$override" "{255 255 255}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+	
+	}
+}

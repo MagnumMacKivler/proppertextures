@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"models/proppertextures/misc/lightglow_green"
+	"$translucent" 	"1"
+}

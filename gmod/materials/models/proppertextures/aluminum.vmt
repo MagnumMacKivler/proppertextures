@@ -2,13 +2,24 @@
 {
 
 	"$basetexture" 	"models\proppertextures/metal/aluminum"
-	"$bumpmap"      "models\proppertextures/metal/aluminum_nrm"
-
-	"$halflambert" "1"
-	"$blendtintbybasealpha" "1"
+	"$bumpmap"     	 "models\proppertextures/metal/aluminum_nrm"
 
 	"$phong" 	"1"
 	"$phongexponent"  "10"
 	"$phongboost" 	"5"
 	"$phongfresnelranges"	"[.25 1 4]"
+
+	"$rimlight"               "1"
+	"$rimlightexponent"       "1"
+	"$rimlightboost"          "1"
+
+	"$override" "{255 255 255}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+	}
 }

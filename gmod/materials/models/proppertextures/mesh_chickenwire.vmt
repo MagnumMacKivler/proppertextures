@@ -12,15 +12,4 @@
 	"$phongboost" 	"5"
 	"$phongfresnelranges"	"[.25 1 4]"
 
-	"$override" "{255 255 255}"
-	Proxies
-	{
-		Equals
-		{
-			srcVar1 $override
-			resultVar $color
-		}
-	
-	}
-
 }

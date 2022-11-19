@@ -1,0 +1,35 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			"models\proppertextures\paint\enamel\enamel_d_white"
+	"$bumpmap" 			"models\proppertextures\metal\cast_n"
+
+	"$basetexturetransform" "center .5 .5 scale 4 4  rotate 0 translate 0 0"
+
+	"$phong"			"1"
+	"$phongalbedotint"		"0"
+	"$phongtint"                  	"[1 1 1]"
+	"$phongboost"                  	"0.8"
+	"$phongexponent"             	 "25"
+	"$phongfresnelranges"           "[1 0.9 0.8]"
+
+	"$rimlight"               "1"
+	"$rimlightexponent"       "3"
+	"$rimlightboost"          "0.05"
+
+	"$detail" 			"detail\proppertexture_castnoise"
+	"$detailscale" 		"16"
+	"$detailblendfactor" 	"0.3"
+	"$detailblendmode" 	"0"
+
+	"$override" "{255 255 255}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+	
+	}
+
+}

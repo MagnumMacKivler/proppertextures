@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+
+	"$basetexture" 	"models\proppertextures/metal/aluminum_brass_sheet"
+	"$bumpmap"      "models\proppertextures/metal/aluminum_brass_nrm"
+
+	"$halflambert" "1"
+	"$blendtintbybasealpha" "1"
+
+	"$phong" 	"1"
+	"$phongexponent"  "10"
+	"$phongboost" 	"5"
+	"$phongfresnelranges"	"[.25 1 4]"
+	"$override" "{255 255 255}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+	
+	}
+}
+

@@ -1,0 +1,27 @@
+"VertexLitGeneric"
+{
+
+	"$basetexture" 	"models\proppertextures/filters/mesh_chickenwire_d"
+	"$bumpmap"      "models\proppertextures/filters/mesh_chickenwire_n"
+
+	"$halflambert" "1"
+	"$alphatest" "1"
+
+	"$phong" 	"1"
+	"$phongexponent"  "10"
+	"$phongboost" 	"5"
+	"$phongfresnelranges"	"[.25 1 4]"
+
+	"$override" "{31 31 31}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+	
+	}
+
+}
+
