@@ -1,0 +1,16 @@
+"UnlitGeneric"
+{
+	"$model" "1"
+	"$basetexture" "models/proppertextures/misc/controlstands/notchwheel"
+	
+	"$override" "{255 255 255}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+	
+	}
+}

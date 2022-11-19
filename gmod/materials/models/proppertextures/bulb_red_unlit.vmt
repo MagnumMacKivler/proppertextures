@@ -1,0 +1,28 @@
+"VertexLitGeneric"
+{
+
+	"$baseTexture" "models/proppertextures/misc/bulbs/bulb_red_unlit"
+	"$bumpmap"      "models\proppertextures/metal/aluminum_nrm"
+
+	"$phong"			"1"
+	"$phongalbedotint"		"0"
+	"$phongtint"                  	"[1 1 1]"
+	"$phongboost"                  	"1"
+	"$phongexponent"             	 "100"
+	"$phongfresnelranges"           "[1 2 3]"
+
+	"$rimlight"               "1"
+	"$rimlightexponent"       "1"
+	"$rimlightboost"          "1"
+
+	"$override" "{255 255 255}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+	
+	}
+}

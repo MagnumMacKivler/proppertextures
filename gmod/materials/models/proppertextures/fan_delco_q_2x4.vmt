@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/proppertextures/misc/fan_delco_q_2x4"
+	"$surfaceprop" "metalgrate"
+	"$alphatest" "1"
+	"$nodecal" "1"
+
+	"$override" "{255 255 255}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+	
+	}
+}

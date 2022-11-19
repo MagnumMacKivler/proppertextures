@@ -1,6 +1,20 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models\proppertextures/gritpaint/gritpaint_white"
-	"$nodecal" 1
-	
+	"$basetexture" 		"models\proppertextures\paint\enamel\enamel_d_white"
+	"$bumpmap" 		"models\proppertextures\gritpaint\gritpaint_normal"
+
+	"$basetexturetransform" "center .5 .5 scale 8 8  rotate 0 translate 0 0"
+
+	"$phong"			"1"
+	"$phongalbedotint"		"1"
+	"$phongtint"                  	"[1 1 1]"
+	"$phongboost"                  	"0.05"
+	"$phongexponent"             	 "1"
+	"$phongfresnelranges"           "[1 0 0]"
+
+	"$detail" 			"detail\proppertexture_grit"
+	"$detailscale" 		"8"
+	"$detailblendfactor" 	"4"
+	"$detailblendmode" 	"1"
+
 }

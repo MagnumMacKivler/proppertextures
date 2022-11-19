@@ -1,0 +1,30 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			"models\proppertextures\paint\hammer\hammer_black_d"
+	"$bumpmap" 			"models\proppertextures\paint\hammer\hammer_n"
+
+	"$basetexturetransform" "center .5 .5 scale 32 32 rotate 0 translate 0 0"
+
+	"$phong"			"1"
+	"$phongalbedotint"		"0"
+	"$phongtint"                  	"[1 1 1]"
+	"$phongboost"                  	"0.5"
+	"$phongexponent"             	 "45"
+	"$phongfresnelranges"           "[1 2 3]"
+
+	"$rimlight"               "1"
+	"$rimlightexponent"       "3"
+	"$rimlightboost"          "0.2"
+
+	"$override" "{255 255 255}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+	
+	}
+
+}

@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\proppertextures/misc/fan_dph_q_top_white"
+	"$surfaceprop" "metalgrate"
+	"$alphatest" "1"
+	"$nodecal" "1"
+	"$blendtintbybasealpha" "1"
+
+}
+

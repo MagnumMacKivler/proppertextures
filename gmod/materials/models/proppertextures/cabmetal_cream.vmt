@@ -1,15 +1,19 @@
 "VertexLitGeneric"
 {
 	"$basetexture" 	"models\proppertextures\paint\cabpaint\cabmetal_d"
-	// "$bumpmap"      "models\proppertextures\metal\aluminum_nrm"
+	"$bumpmap"      "models\proppertextures\metal\aluminum_nrm"
 
-	"$halflambert" "1"
-	// "$blendtintbybasealpha" "1"
+	"$basetexturetransform" "center .5 .5 scale 2 2 rotate 0 translate 0 0"
 
-	// "$phong" 	"1"
-	// "$phongexponent"  "10"
-	// "$phongboost" 	"1"
-	// "$phongfresnelranges"	"[.25 1 4]"
+	 "$phong" 	"1"
+	 "$phongexponent"  "5"
+	 "$phongboost" 	"0.1"
+	 "$phongfresnelranges"	"[1 0 0]"
+
+	"$detail" 			"detail\proppertexture_plastic"
+	"$detailscale" 		"1"
+	"$detailblendfactor" 	"0.25"
+	"$detailblendmode" 	"1"
 	
 	"$override" "{235 225 185}"
 	Proxies
