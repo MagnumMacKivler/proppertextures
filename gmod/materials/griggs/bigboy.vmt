@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "griggs/bigboy"
+	"$alphatest" 1
+	"$translucent" 1
+}

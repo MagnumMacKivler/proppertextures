@@ -1,0 +1,31 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "griggs/paint_d"
+	"$bumpmap" "griggs/paint_n"
+
+	"$nocull" 0
+	"$normalmapalphaenvmapmask" 0 	
+
+	"$envmap" "env_cubemap"					
+	"$envmaptint" "[0.14 0.14 0.14]"				
+	"$envmapFresnel" "1"
+	
+	"$phong" "1"						
+	"$phongboost"	"5" 		
+	"$phongexponenttexture" "griggs/metal_e"
+		
+	"$phongwarptexture"		"griggs/phongwarp2"		
+	"$lightwarptexture" "griggs/lightwarp_soft"
+	
+	"$phongfresnelranges"	"[0.075 0.275 0.875]"		
+	"$phongtint" 			"[1 1 1.1]"			
+	"$PhongAlbedoTint" "1"
+	"$rimlight" "1"
+	"$rimmask" "1"
+	"$rimlightboost" "1"
+
+	"$detail" detail\noise_detail_01 
+	"$detailscale" 1
+	"$detailblendfactor" 0.05
+	"$detailblendmode 0
+}

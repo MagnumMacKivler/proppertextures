@@ -1,0 +1,41 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			"griggs/metal_real"
+	"$bumpmap" 			"griggs/metal_n"
+
+	"$normalmapalphaenvmapmask"	"1"
+	"$basemapalphaphongmask" 		"1"
+	
+	"$phong" "1"						
+	"$phongboost"	"5" 		
+	"$phongexponenttexture" "griggs/metal_e"
+			
+	$lightwarptexture "griggs/lw_alu_3"
+	
+	"$phongfresnelranges"	"[0.75 2.75 8.75]"		
+	"$phongtint" 			"[1 1 1.1]"			
+	"$PhongAlbedoTint" "1"
+	"$rimlight" "1"
+	"$rimmask" "1"
+	"$rimlightboost" "1"
+
+	"$envmap"                       	"env_cubemap"
+	"$envmaptint"                   	"[0.04 0.04 0.04]"
+	"$envmapfresnel" 		"1"
+
+	"$detail" 			"detail\metal_detail_01"
+	"$detailscale" 		"10"
+	"$detailblendfactor" 	"0.15"
+	"$detailblendmode" 	"0"
+	
+"$override" "{255 255 255}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+	
+	}
+}
