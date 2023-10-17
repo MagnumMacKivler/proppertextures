@@ -1,0 +1,39 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "substance\inputw_rgb"
+    "$bumpmap" "substance\inputhw_n"
+    "$phongexponenttexture" "substance\inputhw_e"
+	
+    "$phong" "1"
+    "$phongboost" "0.3"
+    "$phongalbedoboost" "10"                                //toy around with this
+    "$phongfresnelranges" "[1 0.1 0]"
+
+    //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
+    "$rimlight" "0"
+    "$rimlightexponent" "100"
+    "$rimmask" "1"
+    "$rimlightboost" "1"
+       
+    /////////////////
+    "$normalmapalphaenvmapmask" "1"                         //do not touch this
+    /////////////////
+	
+	"$detail" 			"detail/dust_detail"
+	"$detailscale" 		"1"
+	"$detailblendfactor" 	"0.75"
+	"$detailblendmode" 	"2"
+	
+    "$envmap" "env_cubemap"
+    "$envmaptint" "[0.2 0.2 0.2]"                 
+
+    //remove this if not using MWB
+    "Proxies"
+    {
+        "EnvMapDarken"
+        {
+            "min" "0"
+            "max" "0.05"
+        }
+    }
+}
