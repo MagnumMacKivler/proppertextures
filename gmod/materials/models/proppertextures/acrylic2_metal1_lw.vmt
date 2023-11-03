@@ -26,6 +26,7 @@
 	"$detailblendmode" 	"1"
 	
 	"$color2" "{138 139 147}"
+	
     "Proxies"
     {
         "EnvMapDarken"
@@ -33,4 +34,5 @@
             "min" "0"
             "max" "0.05"
         }
+    }
 }
