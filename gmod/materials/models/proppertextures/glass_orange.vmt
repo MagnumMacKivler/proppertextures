@@ -1,0 +1,35 @@
+"VertexLitGeneric"
+{
+    $basetexture    "models/proppertextures/misc/glass_orange"
+    $bumpmap    "models/proppertextures/misc/griggsglass/glass_n"
+	
+	$translucent "1"
+	$nodecal "1"
+	
+    $phong    "1"
+    $phongboost    "10"
+	$phongexponent "1200"
+    $PhongFresnelRanges        "[ 2 4 30 ]" 
+	$phongwarptexture "models/proppertextures/misc/griggsglass/phongwarp_glossy"
+	
+    $envmap    "env_cubemap"
+    $basemapalphaenvmapmask    "1"
+    $envmapfresnel    "4.5"
+    $envmaptint    "[ 1 1 1 ]"
+	$normalmapalphaenvmapmask "0"
+	$override "[1 1 0]"
+	
+    Proxies
+    {
+        "EnvMapDarken"
+        {
+            "min" "0"
+            "max" "0.15"
+        }
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+    }
+}
