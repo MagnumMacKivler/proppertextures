@@ -1,0 +1,49 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "models\proppertextures\paint\acrylic2\acrylic2_rgb"
+    "$bumpmap" "models\proppertextures\paint\acrylic2\acrylic2_n"
+	
+    "$phong" "1"
+    "$phongboost" "50"
+    "$phongfresnelranges" "[1 2.5 0]"
+	"$phongexponent" "5"
+	"$phongwarptexture" "detail/pw_metallic"
+    "$phongalbedotint" "1"
+	"$phongfix" "{10 10 10}"
+	
+    //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
+    "$rimlight" "1"
+    "$rimlightexponent" "100"
+    "$rimmask" "1"
+    "$rimlightboost" "1"
+
+    "$normalmapalphaenvmapmask" "1"
+    "$envmapfresnel" "1"
+    "$envmap" "models/proppertextures/envmaps/specularity_75"
+    "$envmaptint" "[0.2 0.2 0.2]"
+	
+	"$detail" 			"detail\proppertexture_grit"
+	"$detailscale" 		"15"
+	"$detailblendfactor" 	"40"
+	"$detailblendmode" 	"1"
+
+    "Proxies"
+    {
+        "EnvMapDarken"
+        {
+            "min" "0"
+            "max" "0.09"
+        }
+		Equals
+		{
+			srcVar1 $color
+			resultVar $phongtint
+		}
+		Add
+		{
+			srcVar1 $phongfix
+			srcVar2 $phongtint
+			resultVar $phongtint
+		}
+    }
+}

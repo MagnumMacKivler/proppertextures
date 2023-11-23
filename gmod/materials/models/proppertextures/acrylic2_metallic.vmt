@@ -9,6 +9,7 @@
 	"$phongexponent" "5"
 	"$phongwarptexture" "detail/pw_metallic"
     "$phongalbedotint" "1"
+	"$phongfix" "{10 10 10}"
 	
     //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
     "$rimlight" "1"
@@ -25,7 +26,7 @@
 	"$detailscale" 		"15"
 	"$detailblendfactor" 	"40"
 	"$detailblendmode" 	"1"
-	
+
     "Proxies"
     {
         "EnvMapDarken"
