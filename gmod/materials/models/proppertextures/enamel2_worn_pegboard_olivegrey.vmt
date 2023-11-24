@@ -1,0 +1,49 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\proppertextures\wood\pegboard"
+	"$bumpmap" 		"models\proppertextures\paint\acrylic2\acrylic2_n"
+	
+	"$basetexturetransform" "center 0 0 scale 8 8 rotate 0 translate 0 0"
+	
+	"$envmapmask"		"models\proppertextures\wood\pegboard"
+	"$basemapalphaphongmask" 		"1"
+	
+	"$envmapmasktransform" "center 0 0 scale 8 8 rotate 0 translate 0 0"
+	
+    "$phong" "1"
+    "$phongboost" "0.15"
+	"$phongexponent" "2"
+    "$phongfresnelranges" "[1 2.5 0]"
+    "$phongalbedotint" "0"
+
+    //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
+    "$rimlight" "0"
+    "$rimlightexponent" "100"
+    "$rimmask" "1"
+    "$rimlightboost" "1"
+
+	"$envmap"                       	"models/proppertextures/envmaps/specularity_00"
+	//"$envmaptint"                   	"[0.005 0.005 0.005]"
+	"$envmapfresnel" 		"1"
+	
+	"$detail" 			"detail\scuffmark_detail"
+	"$detailscale" 		"0.5"
+	"$detailblendfactor" 	"0.35"
+	"$detailblendmode" 	"3"
+	
+	"$override" "{210 207 190}"
+	
+    "Proxies"
+    {
+        "EnvMapDarken"
+        {
+            "min" "0"
+            "max" "0.09"
+        }
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+    }
+}
