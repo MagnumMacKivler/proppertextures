@@ -1,0 +1,44 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\proppertextures\paint\cabpaint\cabmetal_d"
+	"$bumpmap" 		"models\proppertextures\paint\acrylic2\acrylic2_n"
+
+	"$basemapalphaphongmask" 		"0"
+	
+    "$phong" "1"
+    "$phongboost" "0.7"
+	"$phongexponent" "13"
+    "$phongfresnelranges" "[1 2.5 0]"
+    "$phongalbedotint" "0"
+
+    //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
+    "$rimlight" "1"
+    "$rimlightexponent" "100"
+    "$rimmask" "1"
+    "$rimlightboost" "1"
+
+	"$envmap"                       	"models/proppertextures/envmaps/specularity_00"
+	//"$envmaptint"                   	"[0.005 0.005 0.005]"
+	"$envmapfresnel" 		"1"
+	
+	"$detail" 			"detail\detail_noise"
+	"$detailscale" 		"30"
+	"$detailblendfactor" 	"0.15"
+	"$detailblendmode" 	"1"
+	
+	"$override" "{210 207 190}"
+	
+    "Proxies"
+    {
+        "EnvMapDarken"
+        {
+            "min" "0"
+            "max" "0.09"
+        }
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+    }
+}

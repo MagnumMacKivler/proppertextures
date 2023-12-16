@@ -16,22 +16,21 @@
     "$rimlightboost" "1"
 
     "$normalmapalphaenvmapmask" "1"                         //do not touch this
-
-    "$envmap" "env_cubemap"
-    "$envmaptint" "[0.2 0.2 0.2]"  
+    "$envmapfresnel" "1"
+    "$envmap" "models/proppertextures/envmaps/specularity_00"
+    "$envmaptint" "[0.2 0.2 0.2]"
 	
 	"$detail" 			"detail\detail_noise"
 	"$detailscale" 		"30"
 	"$detailblendfactor" 	"0.15"
 	"$detailblendmode" 	"2"
 	
-	
     "Proxies"
     {
         "EnvMapDarken"
         {
             "min" "0"
-            "max" "0.05"
+            "max" "0.15"
         }
     }
 }

@@ -17,7 +17,7 @@
 
     "$normalmapalphaenvmapmask" "1"                         //do not touch this
 
-    "$envmap" "env_cubemap"
+    "$envmap" "models/proppertextures/envmaps/specularity_75"
     "$envmaptint" "[0.2 0.2 0.2]"   
 	
 	"$detail" 			"detail\detail_noise"
@@ -26,11 +26,13 @@
 	"$detailblendmode" 	"1"
 	
 	"$color2" "{138 139 147}"
+	
     "Proxies"
     {
         "EnvMapDarken"
         {
             "min" "0"
-            "max" "0.05"
+            "max" "0.15"
         }
+    }
 }
