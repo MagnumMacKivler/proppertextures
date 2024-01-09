@@ -32,7 +32,7 @@
         "EnvMapDarken"
         {
             "min" "0"
-            "max" "0.09"
+            "max" "0.5"
         }
 		Equals
 		{

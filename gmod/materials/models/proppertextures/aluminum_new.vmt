@@ -30,7 +30,8 @@
     "$envmap" "models\proppertextures\envmaps\specularity_75"
     "$envmaptint" "[0.769 0.78 0.78]"
 	
-
+	"$override" "{255 255 255}"
+	
     "Proxies"
     {
         "EnvMapDarken"
@@ -39,5 +40,10 @@
             "max" "10"
 			"color" "[0.769 0.78 0.78]"
         }
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
     }
 }
