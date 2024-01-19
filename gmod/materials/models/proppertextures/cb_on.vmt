@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+
+	"$baseTexture" "models/proppertextures/misc/circuitbreakers/cb_on"
+	
+	"$HalfLambert" "1"
+
+	"$override" "{255 255 255}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+	
+	}
+}

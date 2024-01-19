@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 	"models/proppertextures/paint/cabpaint/cabpaint_ohgodpleasecleanyourcab"
+	"$halflambert" "1"
+	
+	"$override" "{170 175 175}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+	
+	}
+}

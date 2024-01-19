@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/proppertextures/misc/decals/epf"
+	"$alphatest" 	"1"
+	"$alphatestreference"	"0.5"
+	"$allowAlphaToCoverage"	"1"
+}
