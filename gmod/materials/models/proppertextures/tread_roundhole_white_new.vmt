@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture" 		"models/proppertextures/tread/tread_roundhole_white_new"
+	"$basetexture" 		"models/proppertextures/treadplate/tread_roundhole_white_new"
 	"$basetexturetransform" "center 0 0 scale 2.4 2.4  rotate 0 translate 0 0"
 	"$translucent" 1
 	"$nodecal" 1
