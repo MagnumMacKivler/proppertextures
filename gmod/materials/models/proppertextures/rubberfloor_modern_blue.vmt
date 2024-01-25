@@ -3,12 +3,12 @@
 	"$basetexture"			"models\proppertextures\flooring\rubberfloor_modern_white"
 	"$bumpmap" 			"models\proppertextures\flooring\rubberfloor_modern_n"
 
-	"$basetexturetransform" "center 0 0 scale 3 3  rotate 0 translate 0 0"
+	"$basetexturetransform" "center 0 0 scale 15 15  rotate 0 translate 0 0"
 
 	"$phong"			"1"
 	"$phongalbedotint"		"0"
 	"$phongtint"                  	"[1 1 1]"
-	"$phongboost"                  	"0.3"
+	"$phongboost"                  	"0.05"
 	"$phongexponent"             	 "30"
 	"$phongfresnelranges"           "[1 5 8]"
 
