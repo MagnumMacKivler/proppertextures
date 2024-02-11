@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/proppertextures/misc/decals/watchyourstep2"
+	"$alphatest" 	"1"
+	"$alphatestreference"	"0.5"
+	"$allowAlphaToCoverage"	"1"
+}

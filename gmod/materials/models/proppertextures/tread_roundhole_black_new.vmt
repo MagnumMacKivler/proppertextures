@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 		"models/proppertextures/treadplate/tread_roundhole_black_new"
+	"$basetexturetransform" "center 0 0 scale 2.4 2.4  rotate 0 translate 0 0"
+	"$translucent" 1
+	"$nodecal" 1
+
+	"$phong"			"1"
+	"$phongalbedotint"		"1"
+	"$phongtint"                  	"[1 1 1]"
+	"$phongboost"                  	"0.1"
+	"$phongexponent"             	 "10"
+	"$phongfresnelranges"           "[1 5 8]"
+
+	"$override" "{255 255 255}"
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+	
+	}
+}
