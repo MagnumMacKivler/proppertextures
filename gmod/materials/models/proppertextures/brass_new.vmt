@@ -4,7 +4,7 @@
     "$bumpmap" "models\proppertextures\metal\brass_n"
     "$phongexponenttexture" "models\proppertextures\metal\brass_e"
 	
-	"$basetexturetransform" "center 0 0 scale 15 15  rotate 0 translate 0 0"
+	"$basetexturetransform" "center 0 0 scale 5 5  rotate 0 translate 0 0"
 	
     /////////////////
     "$color2" "[0.35 0.35 0.35]"                                     //do not touch this

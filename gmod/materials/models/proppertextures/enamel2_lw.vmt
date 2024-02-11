@@ -1,0 +1,36 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "models\proppertextures\paint\enamel\enamel_d_white"
+    "$bumpmap" "models\proppertextures\paint\acrylic2\acrylic2w_n"
+    "$phongexponenttexture" "models\proppertextures\paint\acrylic2\acrylic2w_e"
+	
+    "$phong" "1"
+    "$phongboost" "1"
+    "$phongalbedoboost" "10"                                //toy around with this
+    "$phongfresnelranges" "[1 0.1 0]"
+
+    //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
+    "$rimlight" "0"
+    "$rimlightexponent" "100"
+    "$rimmask" "1"
+    "$rimlightboost" "1"
+
+    "$normalmapalphaenvmapmask" "1"                         //do not touch this
+
+    "$envmap" "models/proppertextures/envmaps/specularity_75"
+    "$envmaptint" "[0.2 0.2 0.2]"   
+	
+	"$detail" 			"detail\detail_noise"
+	"$detailscale" 		"30"
+	"$detailblendfactor" 	"0.15"
+	"$detailblendmode" 	"0"
+	
+    "Proxies"
+    {
+        "EnvMapDarken"
+        {
+            "min" "0"
+            "max" "0.05"
+        }
+    }
+}

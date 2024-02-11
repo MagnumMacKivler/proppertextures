@@ -1,27 +1,31 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models/proppertextures/misc/reflective/reflective_white"
-	"$bumpmap" "models/proppertextures/paint/acrylic2/acrylic2_n"
+	"$basetexture" "models\proppertextures\misc\reflective\3m_fra224_rgb"
+	"$bumpmap" "models\proppertextures\misc\reflective\3m_fra224_n"
+	"$phongexponenttexture" "models\proppertextures\misc\reflective\3m_fra224_e"
+	
+	"$basetexturetransform" "center 0 0 scale 19 19  rotate 0 translate 0 0"
 	
     "$phong" "1"
-    "$phongboost" "50"
+    "$phongboost" "15"
     "$phongfresnelranges" "[1 2.5 0]"
-	"$phongexponent" "5"
+	"$phongexponent" "1"
 	"$phongwarptexture" "detail/pw_metallic"
     "$phongalbedotint" "1"
+	"$phongfix" "{50 50 50}"
 	
     //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
     "$rimlight" "1"
     "$rimlightexponent" "100"
     "$rimmask" "1"
     "$rimlightboost" "1"
-
+	
+    "$basemapalphaphongmask" "1"
     "$normalmapalphaenvmapmask" "1"
     "$envmapfresnel" "1"
-    "$envmap" "models/proppertextures/envmaps/specularity_75"
-    "$envmaptint" "[0.2 0.2 0.2]"
-	
-	"$denominator" "5"
+    "$envmap" "models/proppertextures/envmaps/specularity_50"
+	"$envmaptint"                   	"[0.005 0.005 0.005]"
+	"$envfix" "{0.3 0.3 0.3}"
 	
 	Proxies
 	{
@@ -36,16 +40,21 @@
 			srcVar2 $phongtint
 			resultVar $phongtint
 		}
+		Equals
+		{
+			srcVar1 $color
+			resultVar $envmaptint
+		}
+		Add
+		{
+			srcVar1 $envfix
+			srcVar2 $envmaptint
+			resultVar $envmaptint
+		}
         "EnvMapDarken"
         {
             "min" "0"
-            "max" "0.75"
+            "max" "0.5"
         }
-		Divide
-		{
-			srcVar1 $color
-			srcVar2 $denominator
-			resultVar $envmaptint
-		}
 	}
 }
