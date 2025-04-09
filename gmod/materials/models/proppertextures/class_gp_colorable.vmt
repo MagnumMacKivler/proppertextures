@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-    "$basetexture" "models\proppertextures\classlight\classlight_gp_on_white_rgb"
+    "$basetexture" "models\proppertextures\classlight\classlight_gp_off_rgb"
     "$bumpmap" "models\proppertextures\classlight\classlight_gp_n"
     "$phongexponenttexture" "models\proppertextures\classlight\classlight_gp_e"
 
@@ -24,16 +24,10 @@
     /////////////////
     "$normalmapalphaenvmapmask" "1"                         //do not touch this
     /////////////////
-	
-    $detail "models\proppertextures\classlight\classlight_gp_em_white"
-    $detailscale 1        //scales the detail texture to same size as diffuse.
-    $detailblendfactor 1  //lower values make the texture less visible. 0.0 - 1.0
-    $detailblendmode 5    //6 also works.
-	
-    "$envmap" "models\proppertextures\envmaps\specularity_75"
-    "$envmaptint" "[0.106 0.106 0.102]"                 
 
-	"$override" "{255 255 255}"
+    "$envmap" "models\proppertextures\envmaps\specularity_75"
+    "$envmaptint" "[0.306 0.306 0.302]"                 
+
     "Proxies"
     {
         "EnvMapDarken"
@@ -43,10 +37,5 @@
             "envmap" "models\proppertextures\envmaps\specularity_75"
             "color" "[0.906 0.906 0.902]"
         }
-		Equals
-		{
-			srcVar1 $override
-			resultVar $color
-		}
     }
 }

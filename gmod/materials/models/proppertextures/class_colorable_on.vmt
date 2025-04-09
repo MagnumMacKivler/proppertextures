@@ -1,12 +1,12 @@
 "VertexLitGeneric"
 {
-    "$basetexture" "models\proppertextures\classlight\classlight_gp_on_white_rgb"
-    "$bumpmap" "models\proppertextures\classlight\classlight_gp_n"
-    "$phongexponenttexture" "models\proppertextures\classlight\classlight_gp_e"
+    "$basetexture" "models\proppertextures\classlight\classlight_on_rgb"
+    "$bumpmap" "models\proppertextures\classlight\classlight_n"
+    "$phongexponenttexture" "models\proppertextures\classlight\classlight_e"
 
     /////////////////
-    "$color2" "[0 0 0]"                                     //do not touch this
-    "$blendtintbybasealpha" "1"                             //do not touch this
+    //"$color2" "[0 0 0]"                                     //do not touch this
+    //"$blendtintbybasealpha" "1"                             //do not touch this
     /////////////////
 
     "$phong" "1"
@@ -25,15 +25,17 @@
     "$normalmapalphaenvmapmask" "1"                         //do not touch this
     /////////////////
 	
-    $detail "models\proppertextures\classlight\classlight_gp_em_white"
-    $detailscale 1        //scales the detail texture to same size as diffuse.
-    $detailblendfactor 1  //lower values make the texture less visible. 0.0 - 1.0
-    $detailblendmode 5    //6 also works.
+	"$EmissiveBlendEnabled"		"1"
+	"$EmissiveBlendStrength" 	"1"
+	"$EmissiveBlendTexture" 	"vgui/white"
+	"$EmissiveBlendFlowTexture" "vgui/white"
+	"$EmissiveBlendBaseTexture" "models\proppertextures\classlight\classlight_em_white"
+	"$EmissiveBlendTint"        "[1 1 1]"
+	"$EmissiveBlendScrollVector" 	" [ 0 0 ] "
 	
     "$envmap" "models\proppertextures\envmaps\specularity_75"
     "$envmaptint" "[0.106 0.106 0.102]"                 
 
-	"$override" "{255 255 255}"
     "Proxies"
     {
         "EnvMapDarken"
@@ -41,12 +43,12 @@
             "min" "0"
             "max" "1"
             "envmap" "models\proppertextures\envmaps\specularity_75"
-            "color" "[0.906 0.906 0.902]"
+            "color" "[0.306 0.306 0.302]"
         }
 		Equals
 		{
-			srcVar1 $override
-			resultVar $color
+			srcVar1 $color
+			resultVar $emissiveBlendTint
 		}
     }
 }
